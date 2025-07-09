@@ -13,22 +13,22 @@
             <p>HELP</p>
         </section>
 
-        <button><p>1</p></button>
-        <button><p>2</p></button>
-        <button><p>3</p></button>
-        <button><p></p></button>
-        <button><p>4</p></button>
-        <button><p>5</p></button>
-        <button><p>6</p></button>
-        <button><p></p></button>
-        <button><p>7</p></button>
-        <button><p>8</p></button>
-        <button><p>9</p></button>
-        <button><p></p></button>
-        <button><p></p></button>
-        <button><p>0z</p></button>
-        <button><p></p></button>
-        <button><p></p></button>
+        <button class="numberButton"><p>1</p></button>
+        <button class="numberButton"><p>2</p></button>
+        <button class="numberButton"><p>3</p></button>
+        <button class="methodButton"><p>+</p></button>
+        <button class="numberButton"><p>4</p></button>
+        <button class="numberButton"><p>5</p></button>
+        <button class="numberButton"><p>6</p></button>
+        <button class="methodButton"><p>-</p></button>
+        <button class="numberButton"><p>7</p></button>
+        <button class="numberButton"><p>8</p></button>
+        <button class="numberButton"><p>9</p></button>
+        <button class="methodButton"><p>*</p></button>
+        <button class="controlButton"><p>C</p></button>
+        <button class="numberButton"><p>0</p></button>
+        <button class="controlButton"><p>=</p></button>
+        <button class="methodButton"><p>/</p></button>
     </div>
     </main>
 </body>
