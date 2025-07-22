@@ -6,7 +6,7 @@ class Autoloader
     {
         spl_autoload_register(function ($className) {
             // Define an array of directories to search for class files
-            $paths = ["", "config/", "controllers/", "core/", "core/interfaces/", "models/", "views/"];
+            $paths = ["", "Core/", "Documentation/", "Style/"];
             
             // Loop through each directory
             foreach ($paths as $dir) {
@@ -20,8 +20,6 @@ class Autoloader
                 }
             }
         });
-        
-        echo "AutoLoader running.";  // Useful for debugging
     }
 }
 

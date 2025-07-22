@@ -1,3 +1,8 @@
+<?php
+  require_once 'Core/AutoLoader.php'; 
+  AutoLoader::Register();
+?>
+
 <!DOCTYPE html>
 <head>
     <title>PHP Calculator</title>
@@ -8,12 +13,14 @@
 <body>
     <main>
     <h1>PHP Calculator</h1>
-    <div>
-        <section class="calculatorBar">
-            <p>HELP</p>
-        </section>
+      <section class="calculatorBar">
+          <p><?php echo $_SESSION['calcString']; ?></p>
+      </section>
 
-        <button class="numberButton"><p>1</p></button>
+
+      
+      <form>
+        <button type="submit" name="" value="" class="numberButton"><p>1</p></button>
         <button class="numberButton"><p>2</p></button>
         <button class="numberButton"><p>3</p></button>
         <button class="methodButton"><p>+</p></button>
@@ -29,6 +36,6 @@
         <button class="numberButton"><p>0</p></button>
         <button class="controlButton"><p>=</p></button>
         <button class="methodButton"><p>/</p></button>
-    </div>
+      </form>
     </main>
 </body>
