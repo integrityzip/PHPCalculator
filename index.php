@@ -1,5 +1,8 @@
 <?php 
+  // Activate the Composer autoloader
   require_once __DIR__ . '/vendor/autoload.php';
+
+  // implement the program logic
   require_once 'Core/Logic.php';
 ?>
 
@@ -13,12 +16,14 @@
 <body>
     <main>
     <h1>PHP Calculator</h1>
+
+      <!-- We use this bar to output the Calculation/Text -->
       <section class="calculatorBar">
           <p><?php echo $_SESSION['calcString']; ?></p>
       </section>
 
 
-      
+      <!-- Whenever clicking a button, it sends a POST request with a value (1, 2, 3, =, C...) to Logic.php, which then makes the program calculate the given inputs -->
       <form method="POST">
         <button type="submit" name="button_value" value="1" class="numberButton"><p>1</p></button>
         <button type="submit" name="button_value" value="2" class="numberButton"><p>2</p></button>

@@ -32,4 +32,4 @@
 - The display is readable and updates in real time as the user interacts.
 
 ## 5. Error Handling
-- Invalid inputs or operations (e.g., multiple operators, division by zero) will trigger user-friendly error messages.
+- Invalid inputs or operations (e.g., division by zero) will trigger user-friendly error messages.

@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'PHPCalculator\\' => array($baseDir . '/Core'),
+    'App\\' => array($baseDir . '/src'),
 );
