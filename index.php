@@ -1,5 +1,6 @@
 <?php
   require_once 'Core/AutoLoader.php'; 
+  require_once 'Core/logic.php';
   AutoLoader::Register();
 ?>
 
